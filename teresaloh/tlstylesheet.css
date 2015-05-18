@@ -87,10 +87,8 @@ a:hover{
     }
 
 h1{
-    font-weight: 100;
     text-align: center;
     margin: auto;
-	padding-left: 20px;
 }
 
 h2{
@@ -98,7 +96,7 @@ h2{
 	color:#868686;
     font-family: "Helvetica", Verdana, Georgia, serif;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 5px;
 }
 
 p{
@@ -254,7 +252,6 @@ footer p {
     padding: 0;
     margin: 0;
     font-size: 1em;
-    color: black;
     border-bottom: 2px solid black;
     display: table;
     padding-bottom: 3px;
@@ -269,7 +266,6 @@ footer p {
     padding: 0;
     margin: 0;
     font-size: 1em;
-    color: black;
     border-bottom: 2px solid black;
     display: table;
     padding-bottom: 3px;
@@ -298,12 +294,10 @@ footer p {
     padding: 20px;
 }
 
-#subconttainer h1 {
-    padding: 0;
-    margin: 0;
-    font-size: 1em;
-    line-height: auto;
-    margin-top: -20px;
+#subcontainer h1 {
+	color:#696969;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 #home-separator {
@@ -315,4 +309,63 @@ footer p {
 .footer-position {
     bottom: 0;
     position: absolute;
+}
+
+#contactform textarea {
+    width: 100%;
+    min-height: 100px;
+    resize: vertical;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    margin: 0;
+    color: #888;
+}
+
+#contactform textarea:focus {
+    border: 1px solid #AAA;
+    outline: 0;
+}
+
+#subcontainer h3 {
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+    font-size: .9em;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+	color:#868686;
+}
+
+.text-input {
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    margin-bottom: 15px;
+    color: #888;
+}
+
+.text-input:focus {
+    border: 1px solid #AAA;
+    outline: 0;
+}
+
+#contactform-submit {
+    margin: 15px 0 15px 0;
+    padding: 10px 25px 10px 25px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #bbb;
+    transition: .2s all;
+}
+
+#contactform-submit:hover {
+    border: 1px solid #AAA;
+    color: #888;
+    transition: .2s all;
 }

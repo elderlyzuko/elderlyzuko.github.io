@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="tlstylesheet.css">
 </head>
-<body>
+<body id="page-wrapper">
 
     <div class="nav">
         <div id="headerlogo" class="vertical-align"></div>
@@ -18,22 +18,20 @@
         </div>
     </div>
     
-    <div id="page-wrapper">
-        <div id="subcontainer">
-            <form action="MAILTO:teresalysa702@gmail.com" method="post" enctype="text/plain">
-            Name:<br>
-            <input type="text" name="name" value="your name"><br>
-            E-mail:<br>
-            <input type="text" name="mail" value="your email"><br>
-            Comment:<br>
-            <input type="text" name="comment" value="your comment" size="50"><br><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-            </form>
-        </div>
+    <div id="subcontainer">
+        <h1>Get in Touch</h1>
+        <form action="MAILTO:teresalysa702@gmail.com" method="post" enctype="text/plain" id="contactform" style="margin: 0; padding: 0;">
+            <h3>Name:</h3>
+            <input type="text" name="name" placeholder="Your Name" class="text-input"><br>
+            <h3>E-Mail:</h3>
+            <input type="text" name="e-mail" placeholder="Your E-email" class="text-input"><br>
+            <h3>Message:</h3>
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <center><input type="submit" value="Send" id="contactform-submit"></center>
+        </form>
     </div>
 
-    <footer>
+    <footer class="footer-position">
         <p class="vertical-align">© Teresa Lysa 2015</p>
         <div id="footerlinks">
             <a href="https://www.facebook.com/lysaloh?fref=ts" class="button" target="_blank">f</a>
