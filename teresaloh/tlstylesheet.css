@@ -1,10 +1,17 @@
 @charset "UTF-8";
 /* CSS Document */
-html{
-	padding: 0px;
-	margin: 0px;
+
+html, body{
     width: 100%;
     height: 100%;
+	padding: 0px;
+	margin: 0px;
+	background-color:#2b2b2b;
+	font-family: Verdana, Georgia, serif;
+}
+
+.invisible {
+    display: none;
 }
 
 .vertical-align {
@@ -13,15 +20,6 @@ position: relative;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-body{
-    width: 100%;
-    height: 100%;
-	padding: 0px;
-	margin: 0px;
-	background-color:#2b2b2b;
-	font-family: Verdana, Georgia, serif;
 }
 
 #page-wrapper {
@@ -185,7 +183,6 @@ footer p {
 }
 
 .button {
-    float: right;
 	background-color:#3b5898;
 	-moz-border-radius:40px;
 	-webkit-border-radius:40px;
@@ -198,8 +195,6 @@ footer p {
 	font-weight:bold;
 	padding:2px 13px;
 	text-decoration:none;
-    margin-top: 8px;
-    margin-right: 8px;
 }
 .button:hover {
 	background-color:#32497b;
@@ -376,4 +371,14 @@ footer p {
 
 .leftCol, .rightCol h1 {
     color: black;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#footerlinks {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
 }

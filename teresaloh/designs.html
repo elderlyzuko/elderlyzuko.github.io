@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sara Mei</title>
+    <title>Teresa Lysa - Designs</title>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1" />
-    <link rel="stylesheet" href="tlstylesheet.css">
+    <link type="text/css" rel="stylesheet" href="tlstylesheet.css">
+    <link type="text/css" rel="stylesheet" href="tlmobile.css" media="only screen and (min-width:50px) and (max-width: 700px)">
+    <script src="main.js"></script>
 </head>
 <body>
 
     <div class="nav">
-        <div id="headerlogo" class="vertical-align"></div>
+        <a href="index.html"><div id="headerlogo" class="vertical-align"></div></a>
         <div id="navlinks" class="vertical-align">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -19,7 +21,28 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-    </div> 
+        <div id="hamburger-nav" class="hamburger-menu vertical-align" onclick="openmenu()"></div>
+    </div>
+    
+    <div id="mobile-menu" class="invisible">
+        <div id="mobile-menuheader">
+            <div id="hamburger-menuheader" class="hamburger-menu vertical-align" onclick="closemenu()"></div>
+        </div>
+        <div id="mobile-menucontents">
+            <ul>
+                <a href="index.html"><li>home</li></a>
+                <a href="designs.html"><li>designs</li></a>
+                <a href="about.html"><li>about</li></a>
+                <a href="contact.html"><li>contact</li></a>
+            </ul>
+            <div id="mobile-menu-social">
+                <center>
+                    <a href="https://www.facebook.com/lysaloh?fref=ts" class="button" target="_blank">f</a>
+                    <h3>© Teresa Lysa 2015</h3>
+                </center>
+            </div>
+        </div>
+    </div>
 
     <div id="page-wrapper">
         <div id="designs">

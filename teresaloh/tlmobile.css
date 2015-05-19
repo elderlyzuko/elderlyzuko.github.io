@@ -1,0 +1,108 @@
+
+.hamburger-menu {
+    width: 30px;
+    height: 24px;
+    display: block;
+    float: right;
+    background-size: 40px 32px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+#navlinks {
+    display: none;
+}
+
+.nav {
+    
+}
+
+#subcontainer {
+    width: 100%;
+}
+
+#mobile-padding {
+    padding: 20px;
+}
+
+#contactform textarea {
+    width: 90%;
+    min-height: 100px;
+    resize: vertical;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #DDD;
+    color: #888;
+}
+
+#mobile-padding-innner {
+}
+
+#mobile-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 70%;
+    height: 100%;
+    z-index: 100;
+    background: #222;
+    border-left: 2px solid black;
+}
+
+#mobile-menuheader {
+    height: 70px;
+    width: 100%;
+    border-bottom: black 2px solid;
+}
+
+#hamburger-nav {
+    background: url('assets/images/hamburger-menu-black.svg');
+    background-size: 30px 24px;
+}
+
+#hamburger-menuheader {
+    background: url('assets/images/hamburger-menu-white.svg');
+    background-size: 30px 24px;
+}
+
+#mobile-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+#mobile-menu ul a li {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #222;
+    font-size: .8em;
+}
+
+#mobile-menu ul a li:hover {
+    background: #fafafa;
+    border-bottom: 1px solid #bbb;
+}
+
+#mobile-menu-social {
+    padding: 50px 0;
+}
+
+#mobile-menu-social h3 {
+    padding: 0;
+    margin: 0;
+    font-size: .75em;
+    color: #bbb;
+    font-weight: 100;
+    margin-top: 25px;
+}
+
+
+
+#mobile-menucontents {
+    background: white;
+}
