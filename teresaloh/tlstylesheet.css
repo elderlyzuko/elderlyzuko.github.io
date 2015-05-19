@@ -382,3 +382,17 @@ footer p {
     margin-top: 8px;
     margin-right: 8px;
 }
+
+#mobile-menu {
+    display: none;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+
+
+#mobile-menucontents {
+    display: none;
+}

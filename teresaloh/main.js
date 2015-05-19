@@ -1,7 +1,7 @@
 function openmenu() {
-    document.getElementById("mobile-menu").classList.remove("invisible");
+    document.getElementById("mobile-menu").style.display = "block";
 }
 
 function closemenu() {
-    document.getElementById("mobile-menu").classList.add("invisible");
+    document.getElementById("mobile-menu").style.display = "none";
 }
