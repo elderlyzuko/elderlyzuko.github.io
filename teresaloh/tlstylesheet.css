@@ -106,7 +106,7 @@ p{
 }
 
 li{
-	color: #C0C0C0;
+	color: ##DDDDDD;
 	font-family: Verdana, Georgia, serif;
 	font-size: 14px;
 	text-align: left;
@@ -114,6 +114,9 @@ li{
 	padding-right: 40px;
 	padding-bottom: 2px;	
 }
+
+
+
 
 .links{
 	margin-bottom: 20px;
@@ -129,9 +132,6 @@ li{
 .colContainer a .leftCol:hover, .colContainer a .midCol:hover, .colContainer a .rightCol:hover {
     background: white;
 }
-
-
-	
 
 
 .colContainer{
@@ -390,8 +390,6 @@ footer p {
 .hamburger-menu {
     display: none;
 }
-
-
 
 #mobile-menucontents {
     display: none;
