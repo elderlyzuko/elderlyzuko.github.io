@@ -11,7 +11,8 @@ html, body{
 }
 
 homequote {
-text-align: center;
+.text-align: center;
+color: #666666;
 }
 
 .invisible {
