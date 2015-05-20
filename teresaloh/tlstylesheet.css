@@ -71,12 +71,12 @@ position: relative;
 }
 
 a{
-	color: #afafaf;
+	color: #666666;
     text-decoration: none;
   }
 
 a:hover{
-	color:#96948c;
+	color:#333333;
 }
 
 #headerlogo {
