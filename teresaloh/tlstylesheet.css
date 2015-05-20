@@ -10,6 +10,10 @@ html, body{
 	font-family: Verdana, Georgia, serif;
 }
 
+homequote {
+text-align: center;
+}
+
 .invisible {
     display: none;
 }
