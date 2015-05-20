@@ -127,7 +127,7 @@ li{
 }
 
 .leftCol, .midCol, .rightCol{
-    float: left;
+        float: left;
 	width: 50%;
 	text-align: center;
 }
@@ -138,10 +138,10 @@ li{
 
 
 .colContainer{
-	width: 100%;
+    width: 100%;
     overflow: hidden;
     border-top: 4px solid black;
-	background-color:#f5f4f4;
+    background-color:#f5f4f4;
 }
     
 #designs {
@@ -238,12 +238,14 @@ footer p {
     background: url("assets/images/earrings-compressor.png");
     background-size: 100% auto;
     padding-top: 15%;
+    height: 22px;
 }
 
 #right-column {
     background: url("assets/images/dirt.JPG");
     background-size: 100% auto;
     padding-top: 15%;
+    height: 22px;
 }
 
 #left-under {
