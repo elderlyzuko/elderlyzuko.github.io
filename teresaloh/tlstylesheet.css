@@ -10,8 +10,8 @@ html, body{
 	font-family: Verdana, Georgia, serif;
 }
 
-homequote {
-.text-align: center;
+.homequote {
+text-align: center;
 color: #666666;
 }
 
