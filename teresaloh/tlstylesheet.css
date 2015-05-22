@@ -406,3 +406,7 @@ footer p {
 #mobile-menucontents {
     display: none;
 }
+
+#about-pic {
+    text-align: center;
+}
