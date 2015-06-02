@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="assets/css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <script src="assets/main.js"></script>
 </head>
 <body>
     <div id="page-wrapper2">
@@ -22,47 +23,128 @@
             </ul>
         </div>
     </div>
-    
-<div id="work-intro"> 
-        <h1>SELECTED WORKS</h1>
-        </div>        
+
+   <div id="works-list-header">
+       <div class="work-wrapper"><h3 class="work-title">Name</h3><h3 class="work-date">Date</h3></div>
+   </div>
+    <ul id="works-list">
+        <li onclick="lightbox('lightbox-sushitwister')"><div class="work-wrapper"><h3 class="work-title">Sushi With A Twist</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('opvillage')"><div class="work-wrapper"><h3 class="work-title">Opportunity Village</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('js-challenge')"><div class="work-wrapper"><h3 class="work-title">JavaScript Challenge</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('english10')"><div class="work-wrapper"><h3 class="work-title">English 10 Honors</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('littlered')"><div class="work-wrapper"><h3 class="work-title">Little Red Flying Hood</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('bcard')"><div class="work-wrapper"><h3 class="work-title">Business Card</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('eyes')"><div class="work-wrapper"><h3 class="work-title">Eyes Painting</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('laporte')"><div class="work-wrapper"><h3 class="work-title">LaPorte Recoloration</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('wedding')"><div class="work-wrapper"><h3 class="work-title">Too Young To Wed</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('peace')"><div class="work-wrapper"><h3 class="work-title">'Peace' Painting</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('acte')"><div class="work-wrapper"><h3 class="work-title">ACTE Logos</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('shakespeare')"><div class="work-wrapper"><h3 class="work-title">Shakespeare Website</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('animationgetting')"><div class="work-wrapper"><h3 class="work-title">Getting Out There In Animation</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('pig')"><div class="work-wrapper"><h3 class="work-title">Pig Photograph</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('design')"><div class="work-wrapper"><h3 class="work-title">Elements of Design Essay</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('lincoln')"><div class="work-wrapper"><h3 class="work-title">Abraham Lincoln Design</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+        <li onclick="lightbox('hiphop')"><div class="work-wrapper"><h3 class="work-title">Hip Hop Meets IT</h3><h3 class="work-date">April 2, 2014</h3></div></li>
+    </ul>
         
-<div id="workcolumn">     
-    <div class="col">
-        <center><iframe class="worksimg" src="assets/work/SushiTwister.pdf" width="360px"></iframe></center>
-        <img class="worksimg"src="assets/work/IMG_0948.JPG" width="360px">
-        <center><iframe class="worksimg" src="assets/JavaScriptChallenge/index.html" width="400px"></iframe></center>
-        <img class="worksimg"src="assets/work/IMG_7062.JPG" width="360px">
-                <img class="worksimg"src="assets/work/littleredflyinghood.jpg" width="360px">
-                <img class="worksimg"src="assets/work/Bcard1.png" width="360px">
-        <img class="worksimg"src="assets/work/eyes.png" width="360px">
-        <img class="worksimg"src="assets/work/laporte.jpg" width="360px">
-        <center><iframe class="worksimg" src="assets/work/ChildMarriage-Final.pdf" width="360px"></iframe></center>
-
-    </div>  
-    <div class="col">
-        <img class="worksimg"src="assets/work/IMG_8168.JPG" width="360px">
-<img class="worksimg"src="assets/work/actelogos.png" width="360px">
-        <img class="worksimg"src="assets/work/shakespeare.png" width="360px">   
-
-                <center><iframe class="worksimg" src="assets/work/PD7_Kalaoram_DemoReel.pdf" width="360px"></iframe></center>
-        <img class="worksimg"src="assets/work/IMG_9941.JPG" width="360px">
-                        <center><iframe class="worksimg" src="assets/work/PD7_Kalaoram_Essay.pdf" width="360px"></iframe></center>
-        <img class="worksimg"src="assets/work/image-2.jpg" width="360px">
-        <img class="worksimg"src="assets/work/hiphop.png" width="360px">
+    <div id="lightbox-background" class="invisible" onclick="closelightbox()">
+        <div id="lightbox-sushitwister" class="lightbox vertical-align invisible">
+            <center>
+                <embed src="assets/work/SushiTwister.pdf" width="100%" height="100%">
+            </center>
+        </div> 
+        <div id="opvillage" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/IMG_0948.JPG" width="100%">
+            </center>
+        </div>   
+        <div id="js-challenge" class="lightbox vertical-align invisible">
+            <center>
+                <embed src="assets/JavaScriptChallenge/index.html" width="100%" height="100%">
+            </center>
+        </div>  
+        <div id="english10" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/IMG_7062.JPG" width="100%">
+            </center>
+        </div>  
+        <div id="littlered" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/littleredflyinghood.jpg" width="100%">
+            </center>
+        </div>   
+        <div id="bcard" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/Bcard1.png" width="100%">
+            </center>
+        </div>  
+        <div id="eyes" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/eyes.png" width="100%">
+            </center>
+        </div> 
+        <div id="laporte" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/laporte.jpg" height="100%">
+            </center>
+        </div>  
+        <div id="wedding" class="lightbox vertical-align invisible">
+            <center>
+                <embed src="assets/work/ChildMarriage-Final.pdf" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="peace" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/IMG_8168.JPG" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="acte" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/actelogos.png" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="shakespeare" class="lightbox vertical-align invisible">
+            <center>
+                <embed src="http://swcta.net/teachers/changcl/shakespeare/saramei/index.html" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="animationgetting" class="lightbox vertical-align invisible">
+            <center>
+                <embed src="assets/work/PD7_Kalaoram_DemoReel.pdf" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="pig" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/IMG_9941.JPG" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="design" class="lightbox vertical-align invisible">
+            <center>
+                <embed src="assets/work/PD7_Kalaoram_Essay.pdf" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="lincoln" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/image-2.jpg" width="100%" height="100%">
+            </center>
+        </div>
+        <div id="hiphop" class="lightbox vertical-align invisible">
+            <center>
+                <img src="assets/work/hiphop.png" width="100%" height="100%">
+            </center>
+        </div>
     </div>
-</div>  
-        
+          
     <div id="bottombar">
-        <div id="footer-wrapper">
+        <div id="footer-wrapper" class="vertical-align">
             <div id="copyright">
-            <p>©Sara Kalaoram 2015</p>
+                <p>©Sara Kalaoram 2015</p>
             </div>
-        <div id="buttons">
-    <a href="http://www.facebook.com/saraaacrosswell" target="_blank"> <img src="assets/images/fb.png"> </a>
-    <a href="http://www.instagram.com/sara.swf" target="_blank"> <img src="assets/images/ig.png"> </a>
-    <a href="http://www.elderlyzuko.tumblr.com" target="_blank"> <img src="assets/images/tumblr.png"> </a>
-    <a href="http://www.southwestshadow.com/author/saramei-kalaoram/" target="_blank"> <img src="assets/images/sw.png"> </a>
+            <div id="buttons">
+                <a href="http://www.facebook.com/saraaacrosswell" target="_blank"> <img src="assets/images/fb.png"> </a>
+                <a href="http://www.instagram.com/sara.swf" target="_blank"> <img src="assets/images/ig.png"> </a>
+                <a href="http://www.elderlyzuko.tumblr.com" target="_blank"> <img src="assets/images/tumblr.png"> </a>
+                <a href="http://www.southwestshadow.com/author/saramei-kalaoram/" target="_blank"> <img src="assets/images/sw.png"> </a>
             </div>
         </div>
     </div>
