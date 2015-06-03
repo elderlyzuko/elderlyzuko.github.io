@@ -354,7 +354,7 @@ iframe {
     overflow: hidden;
 }
 
-#works-list-header {
+.works-list-header {
     margin: 0;
     padding: 0;
     overflow: hidden;
